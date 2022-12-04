@@ -1,0 +1,44 @@
+footer{
+    background-color: #00aeff;
+}
+.footer-logo{
+        color: white;
+        font-size: 20px !important;
+        font-weight: 900;
+        letter-spacing: 5px;
+}
+.footer-menu ul li{
+    list-style: none;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    transition: all 1.5s ease;
+}
+.footer-menu ul li a:hover {
+    color: black;
+    top: -1px;
+}
+footer .footer-social a{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+footer .footer-social a:hover{
+    color: rgb(0, 0, 0);
+}
+@media (max-width:768px){
+    .footer-menu ul{
+        flex-wrap: wrap;
+    }
+}

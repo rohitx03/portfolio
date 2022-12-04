@@ -1,0 +1,21 @@
+
+  
+ .slider-img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 5em;
+    overflow: hidden;
+  }
+  
+
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }

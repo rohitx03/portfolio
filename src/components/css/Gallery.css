@@ -1,0 +1,34 @@
+.gall-heading .top{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(0 174 255);
+    width: 50%;
+
+}
+.gall-heading .middle{
+    font-size: 42px;
+    color: rgb(0 174 255);
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 52px;
+    text-transform: capitalize;
+}
+.gallery .gall-box {
+    border: 1px solid #001d2b;
+    transition: all 0.5s ease;
+}
+.gallery .gall-box:hover {
+    border: 1px solid #00679b;
+}
+@media (max-width:768px){
+    .gallery .gall-box {
+        margin-bottom: 30px;
+      }
+      .gallery .row .col-lg-4 {
+        margin-bottom: 0px !important;
+      }
+}

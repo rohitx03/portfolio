@@ -1,0 +1,40 @@
+.ser-heading .top{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(0 174 255);
+    width: 50%;
+
+}
+.ser-heading .middle{
+    font-size: 42px;
+    color: rgb(0 174 255);
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 52px;
+    text-transform: capitalize;
+}
+.ser-box .box-heading {
+    color: #00aeff;
+    margin: 20px;
+}
+.ser-box .box-para {
+    color: white;
+    font-weight: 300;
+    line-height: 26px;
+}
+.services .ser-box {
+    border: 1px solid #001d2b;
+    transition: all 0.5s ease;
+}
+.services .ser-box:hover {
+    border: 1px solid #00aeff;
+}
+@media (max-width:768px){
+    .services .ser-box {
+        margin-bottom: 30px;
+      }
+}
