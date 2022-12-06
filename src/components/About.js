@@ -4,7 +4,7 @@ import './css/About.css';
 const About = () => {
     return (
         <>
-            <section className='about my-5 pt-5 ' id='about'>
+            <section className='about my-5' id='about'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
@@ -47,4 +47,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
