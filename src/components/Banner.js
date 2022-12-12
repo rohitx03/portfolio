@@ -11,7 +11,7 @@ const Banner = () => {
                             <div className='banner-content'>
                                 <p className='banner-p'>HEY THERE !</p>
                                 <h2 className='banner-h2'>I AM ROHIT SAGAR</h2>
-                                <h3 className='banner-h3'>FONRT-END AND BACK-END DEVELOPER</h3>
+                                <h3 className='banner-h3'>FRONT-END AND BACK-END DEVELOPER</h3>
                                 <div className='banner-social my-5'>
                                 <a href='https://www.instagram.com/rohitx03/' target='blank'><i class="bi bi-instagram"></i></a>
                                 <a href='https://www.facebook.com/profile.php?id=100024797594844' target='blank'><i class="bi bi-facebook"></i></a>
